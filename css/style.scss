@@ -504,8 +504,10 @@ footer{
         }
         .shopping_guide section{
             float:none;
-            width:88%;
+            width:auto;
             margin-bottom:10px;
+            height:300px;
+            margin-right:0;
         }
         
     }
@@ -515,11 +517,28 @@ footer{
         float:none;
         width:100%;
         
+
         .search{
             margin-top:20px;
             
             p{
                 display:none;
+            }
+            input {
+                background: url(../images/top/search_icon.png) #eee no-repeat center right 3%;
+            }
+        }
+        .pagelink a {
+            background: url(../images/top/next_icon.png) #887f69 no-repeat center right 5%;
+        }
+
+        
+        .content_nav{
+            p{
+                background: url(../images/top/down_icon.png) #887f69 no-repeat center right 5%;
+            }
+            li {
+                background: url(../images/top/next_icon_gray.png) #fff no-repeat center right 5%;
             }
         }
         

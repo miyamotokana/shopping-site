@@ -301,8 +301,10 @@ footer {
         margin-right: 0; }
     .left .shopping_guide section {
       float: none;
-      width: 88%;
-      margin-bottom: 10px; }
+      width: auto;
+      margin-bottom: 10px;
+      height: 300px;
+      margin-right: 0; }
 
   .right {
     float: none;
@@ -311,6 +313,14 @@ footer {
       margin-top: 20px; }
       .right .search p {
         display: none; }
+      .right .search input {
+        background: url(../images/top/search_icon.png) #eee no-repeat center right 3%; }
+    .right .pagelink a {
+      background: url(../images/top/next_icon.png) #887f69 no-repeat center right 5%; }
+    .right .content_nav p {
+      background: url(../images/top/down_icon.png) #887f69 no-repeat center right 5%; }
+    .right .content_nav li {
+      background: url(../images/top/next_icon_gray.png) #fff no-repeat center right 5%; }
     .right .shop_info, .right .about {
       overflow: hidden; }
       .right .shop_info figure img, .right .about figure img {
