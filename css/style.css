@@ -106,10 +106,10 @@ header {
     margin-bottom: 40px; }
   .left .shopping_guide section {
     float: left;
-    width: 43%;
+    width: 43.3%;
     height: 270px;
     background: #fff;
-    padding: 20px;
+    padding: 3.1%;
     margin-right: 1%; }
     .left .shopping_guide section:last-child {
       margin-right: 0; }
@@ -314,7 +314,8 @@ footer {
       .right .search p {
         display: none; }
       .right .search input {
-        background: url(../images/top/search_icon.png) #eee no-repeat center right 3%; }
+        background: url(../images/top/search_icon.png) #eee no-repeat center right 3%;
+        width: 94%; }
     .right .pagelink a {
       background: url(../images/top/next_icon.png) #887f69 no-repeat center right 5%; }
     .right .content_nav p {
